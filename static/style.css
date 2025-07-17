@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+}
+
+form {
+  width: 100%;             /* Allows fluid resizing */
+  max-width: 400px;        /* Keeps it readable on large screens */
+  background-color: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;  /* Ensures padding doesn't break layout */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading pinned at the top */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 48%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  margin-right: 4%;
+}
+
+input[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}
